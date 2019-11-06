@@ -37,13 +37,13 @@ var profiles = map[string]Profile{
 	// 2019-11-03 18:00:10.440
 	"deliveryd": Profile{
 		Regexp: regexp.MustCompile(`(\d+-\d+-\d+ \d+:\d+:\d+)`),
-		Format: `2006-02-01 15:04:05`,
+		Format: `2006-01-02 15:04:05`,
 	},
 
 	// 2019-11-03 18:00:10.440
 	"mailloader": Profile{
 		Regexp: regexp.MustCompile(`(\d+-\d+-\d+ \d+:\d+:\d+)`),
-		Format: `2006-02-01 15:04:05`,
+		Format: `2006-01-02 15:04:05`,
 	},
 
 	// Nov  3 17:07:01.847
